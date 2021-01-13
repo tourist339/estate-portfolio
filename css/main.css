@@ -1,0 +1,522 @@
+.text-body {
+  font-family: "Montserrat";
+  font-size: 21.6px;
+}
+
+.text-small-body {
+  font-family: "Montserrat";
+  font-size: 19.6px;
+}
+
+.text-icon {
+  font-family: "Montserrat";
+  font-size: 16.28px;
+}
+
+.text-small-icon {
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.text-largeheading {
+  font-family: "Ubuntu";
+  font-size: 42px;
+}
+
+.text-midheading {
+  font-family: "Alegreya";
+  font-size: 28.8px;
+}
+
+.font-body {
+  font-family: "Montserrat" !important;
+}
+
+.font-largeheading {
+  font-family: "Ubuntu" !important;
+}
+
+.font-midheading {
+  font-family: "Alegreya" !important;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .text-largeheading {
+    font-size: 37px;
+  }
+
+  .text-midheading {
+    font-size: 25.8px;
+  }
+
+  .text-body {
+    font-size: 19.6px;
+  }
+
+  .text-icon {
+    font-size: 14.28px;
+  }
+
+  .text-small-icon {
+    font-size: 12.28px;
+  }
+}
+@media (max-width: 480px) {
+  .text-body {
+    font-size: 17.6px;
+  }
+
+  .text-largeheading {
+    font-size: 32px;
+  }
+
+  .text-midheading {
+    font-size: 21.8px;
+  }
+
+  .text-icon {
+    font-size: 13.28px;
+  }
+
+  .text-small-icon {
+    font-size: 11.78px;
+  }
+}
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0.7vw 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+nav #nav-menu-div button {
+  font-size: 20px;
+}
+nav #nav-logo-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+nav #nav-logo-div img {
+  width: 150px;
+  height: 100px;
+}
+
+.text-body {
+  font-family: "Montserrat";
+  font-size: 21.6px;
+}
+
+.text-small-body {
+  font-family: "Montserrat";
+  font-size: 19.6px;
+}
+
+.text-icon {
+  font-family: "Montserrat";
+  font-size: 16.28px;
+}
+
+.text-small-icon {
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.text-largeheading {
+  font-family: "Ubuntu";
+  font-size: 42px;
+}
+
+.text-midheading {
+  font-family: "Alegreya";
+  font-size: 28.8px;
+}
+
+.font-body {
+  font-family: "Montserrat" !important;
+}
+
+.font-largeheading {
+  font-family: "Ubuntu" !important;
+}
+
+.font-midheading {
+  font-family: "Alegreya" !important;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .text-largeheading {
+    font-size: 37px;
+  }
+
+  .text-midheading {
+    font-size: 25.8px;
+  }
+
+  .text-body {
+    font-size: 19.6px;
+  }
+
+  .text-icon {
+    font-size: 14.28px;
+  }
+
+  .text-small-icon {
+    font-size: 12.28px;
+  }
+}
+@media (max-width: 480px) {
+  .text-body {
+    font-size: 17.6px;
+  }
+
+  .text-largeheading {
+    font-size: 32px;
+  }
+
+  .text-midheading {
+    font-size: 21.8px;
+  }
+
+  .text-icon {
+    font-size: 13.28px;
+  }
+
+  .text-small-icon {
+    font-size: 11.78px;
+  }
+}
+/******** GlobalClasses *******/
+html {
+  font-size: 1vw;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0 0vw;
+}
+
+.social-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-icons a {
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.modal {
+  z-index: 11 !important;
+}
+
+.blocker {
+  z-index: 10 !important;
+  margin: 0 !important;
+}
+
+button {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.required-input::after {
+  content: "*";
+  color: red;
+}
+
+/* Default texts with size and font families */
+.largesize {
+  font-size: 3.8rem;
+}
+
+.heading {
+  font-size: 28.8px;
+  font-family: "Ubuntu";
+}
+
+.midsize {
+  font-size: 1.8rem;
+  font-family: "Alegreya";
+}
+
+.parasize {
+  font-size: 1.1rem;
+  font-family: "Montserrat";
+  color: #222222;
+}
+
+.smparasize {
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+}
+
+.hidden {
+  display: none !important;
+}
+
+.toggleVisible {
+  transition: all 0.3s linear;
+  visibility: hidden;
+}
+.toggleVisible[visible=false] {
+  opacity: 0;
+  visibility: hidden;
+}
+.toggleVisible[visible=true] {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Font awesome icon classes */
+.fontAwesomeBTN {
+  background-color: rgba(1, 1, 1, 0);
+  color: black;
+  outline: none;
+  font-size: 16.28px;
+  border: 0;
+  padding: 0;
+}
+.fontAwesomeBTN i {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+.fontAwesomeBTN:hover i {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.notypelist {
+  list-style-type: none;
+}
+
+/********                  *********/
+input[type=submit] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#searchInputNavbar {
+  font-size: 1.2vw;
+  display: none;
+}
+
+.headline {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0vw;
+}
+
+.headline:before {
+  content: "";
+  width: 6vw;
+  height: 0.4vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: gray;
+}
+
+.afterline {
+  position: relative;
+}
+
+.afterline:after {
+  content: "";
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  bottom: 0px;
+  background: #717171;
+}
+
+.beforeline {
+  position: relative;
+}
+
+.beforeline:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0px;
+  background: #717171;
+}
+
+.hidescrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hidescrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+#logoicon {
+  text-align: left;
+  flex: 0 0 0px;
+  width: 5vw;
+}
+
+footer {
+  width: 100%;
+  height: 20vw;
+  background-color: azure;
+}
+
+/*flex classes*/
+.rowflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.colflex {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Margin bottom to 0*/
+.nomb {
+  margin-bottom: 0 !important;
+}
+
+.sticky {
+  position: fixed;
+}
+
+.rel {
+  position: relative;
+}
+
+.gridbox {
+  display: grid;
+}
+
+.shakeinp {
+  outline-color: red;
+  border-color: red !important;
+  -webkit-animation: shake 0.5s linear;
+}
+
+.animationMenu {
+  width: 0;
+  transition: width 0.3s linear;
+}
+
+.animationMenu[status=close] {
+  width: 0;
+}
+
+.star-rating-box {
+  display: flex;
+}
+.star-rating-box div {
+  overflow: hidden;
+  display: flex;
+}
+.star-rating-box .back-stars {
+  position: relative;
+  color: grey;
+}
+.star-rating-box .front-stars {
+  position: absolute;
+  color: red;
+  top: 0;
+}
+
+.add-to-wishlist-btn {
+  margin-left: auto;
+  font-size: 2.4rem;
+  background-color: rgba(1, 1, 1, 0);
+  border: none;
+  outline: 0;
+}
+
+.add-to-wishlist-btn[wishlist=true] i {
+  color: red;
+  text-shadow: 0 0 5px white;
+}
+.add-to-wishlist-btn[wishlist=true] i:hover {
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 0 5px red;
+}
+
+.add-to-wishlist-btn[wishlist=false] i {
+  color: white;
+  text-shadow: 0 0 5px red;
+}
+.add-to-wishlist-btn[wishlist=false] i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.raised-box {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.circular-btn {
+  border-radius: 50% !important;
+  border: black solid 1px !important;
+}
+.circular-btn i {
+  border-radius: 50% !important;
+}
+
+.horizontal-scroller {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.horizontal-scroller .card {
+  display: inline-block;
+  box-shadow: -3px -25px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.leftmost {
+  margin-left: 0px !important;
+}
+
+.rightmost {
+  margin-right: 0px !important;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.italic-font {
+  font-style: italic;
+}
+
+@-webkit-keyframes shake {
+  8%, 41% {
+    -webkit-transform: translateX(-10px);
+  }
+  25%, 58% {
+    -webkit-transform: translateX(10px);
+  }
+  75% {
+    -webkit-transform: translateX(-5px);
+  }
+  92% {
+    -webkit-transform: translateX(5px);
+  }
+  0%, 100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
