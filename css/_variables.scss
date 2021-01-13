@@ -18,7 +18,7 @@ $fontsize_small_body:19.6px;
 
 $fontsize_body:21.6px;
 $fontsize_midheading:28.8px;
-$fontsize_largeheading:42px;
+$fontsize_largeheading:54px;
 
 //tablet font sizes
 $fontsize_tablet_largeheading:$fontsize_largeheading - 5px;
@@ -100,31 +100,42 @@ $opaque_bg:rgba(1,1,1,0);
 .text-body{
   font-family: $fontBody;
   font-size: $fontsize_body ;
+  color: white;
+
 }
 .text-small-body{
   font-family: $fontBody;
   font-size: $fontsize_small_body ;
+  color: white;
+
 }
 
 .text-icon{
   font-family: $fontBody;
   font-size: $fontsize_icon ;
+  color: white;
+
 }
 
 .text-small-icon{
   font-family: $fontBody;
   font-size: 14px ;
+  color: white;
+
 }
 
 .text-largeheading{
   font-family: $fontHeading;
   font-size: $fontsize_largeheading;
+  color: goldenrod;
 }
 
 
 .text-midheading{
   font-family: $fontMidHeading;
   font-size: $fontsize_midheading;
+  color: goldenrod;
+
 }
 
 .font-body{

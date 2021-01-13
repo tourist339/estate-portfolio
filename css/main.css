@@ -1,31 +1,37 @@
 .text-body {
   font-family: "Montserrat";
   font-size: 21.6px;
+  color: white;
 }
 
 .text-small-body {
   font-family: "Montserrat";
   font-size: 19.6px;
+  color: white;
 }
 
 .text-icon {
   font-family: "Montserrat";
   font-size: 16.28px;
+  color: white;
 }
 
 .text-small-icon {
   font-family: "Montserrat";
   font-size: 14px;
+  color: white;
 }
 
 .text-largeheading {
   font-family: "Ubuntu";
-  font-size: 42px;
+  font-size: 54px;
+  color: goldenrod;
 }
 
 .text-midheading {
   font-family: "Alegreya";
   font-size: 28.8px;
+  color: goldenrod;
 }
 
 .font-body {
@@ -42,7 +48,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .text-largeheading {
-    font-size: 37px;
+    font-size: 49px;
   }
 
   .text-midheading {
@@ -67,7 +73,7 @@
   }
 
   .text-largeheading {
-    font-size: 32px;
+    font-size: 44px;
   }
 
   .text-midheading {
@@ -105,31 +111,37 @@ nav #nav-logo-div img {
 .text-body {
   font-family: "Montserrat";
   font-size: 21.6px;
+  color: white;
 }
 
 .text-small-body {
   font-family: "Montserrat";
   font-size: 19.6px;
+  color: white;
 }
 
 .text-icon {
   font-family: "Montserrat";
   font-size: 16.28px;
+  color: white;
 }
 
 .text-small-icon {
   font-family: "Montserrat";
   font-size: 14px;
+  color: white;
 }
 
 .text-largeheading {
   font-family: "Ubuntu";
-  font-size: 42px;
+  font-size: 54px;
+  color: goldenrod;
 }
 
 .text-midheading {
   font-family: "Alegreya";
   font-size: 28.8px;
+  color: goldenrod;
 }
 
 .font-body {
@@ -146,7 +158,7 @@ nav #nav-logo-div img {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .text-largeheading {
-    font-size: 37px;
+    font-size: 49px;
   }
 
   .text-midheading {
@@ -171,7 +183,7 @@ nav #nav-logo-div img {
   }
 
   .text-largeheading {
-    font-size: 32px;
+    font-size: 44px;
   }
 
   .text-midheading {
@@ -201,13 +213,24 @@ body {
 .social-icons {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  padding: 8px;
+  transform: translateX(-50%);
 }
 .social-icons a {
   background: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
   border-radius: 50%;
+  margin: 0 8px;
+  padding: 5px;
+}
+.social-icons a:hover {
+  cursor: pointer;
+  background: black;
+}
+.social-icons a i {
+  color: whitesmoke;
+  font-size: 18px;
 }
 
 .modal {
